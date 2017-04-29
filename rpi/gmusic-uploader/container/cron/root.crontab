@@ -1,0 +1,2 @@
+*/5 * * * * /usr/bin/flock -n /tmp/fcj.lockfile -c "/scripts/sync.sh /credentials $UPLOADER_ID"
+ 
